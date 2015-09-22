@@ -22,14 +22,16 @@
     PdBase.openFile("simpleOsc.pd", path: NSBundle.mainBundle().resourcePath)
     pd.active = true  
   }
-}</code></pre></p
-<p>>Now we can create methods to handle user interaction and send messages back to our pd patch.Add the following methods to ViewController and link them to the ui objects in storyboard.</p><pre><code>@IBAction func onOffSwitchToggled(sender: UISwitch)
+}</code></pre></p>
+<p>>Now we can create methods to handle user interaction and send messages back to our pd patch.Add the following methods to ViewController and link them to the ui objects in storyboard.</p>
+<p><pre><code>@IBAction func onOffSwitchToggled(sender: UISwitch)
 {
   PdBase.sendFloat( Float(sender.on), toReceiver: "onOff" )
 }
-    
+
 @IBAction func crossFadeSliderMoved(sender: UISlider)
 {
   PdBase.sendFloat( sender.value, toReceiver: "xFade" )
 }
-</code></pre><p><b>Step 7</b></p><p>Now lets run the application and see it in all it’s glory! (if you want to run the application on your own device, you need an Apple developers account).
+</code></pre></p>
+<p><b>Step 7</b></p><p>Now lets run the application and see it in all it’s glory! (if you want to run the application on your own device, you need an Apple developers account).
