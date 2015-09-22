@@ -23,7 +23,7 @@
     pd.active = true  
   }
 }</code></pre></p>
-<p>>Now we can create methods to handle user interaction and send messages back to our pd patch.Add the following methods to ViewController and link them to the ui objects in storyboard.</p>
+<p>Now we can create methods to handle user interaction and send messages back to our pd patch.Add the following methods to ViewController and link them to the ui objects in storyboard.</p>
 <p><pre><code>@IBAction func onOffSwitchToggled(sender: UISwitch)
 {
   PdBase.sendFloat( Float(sender.on), toReceiver: "onOff" )
