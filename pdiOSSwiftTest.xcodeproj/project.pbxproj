@@ -1,0 +1,379 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D2E4CF0D1BB17DA60022E890 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E4CF0C1BB17DA60022E890 /* AppDelegate.swift */; };
+		D2E4CF0F1BB17DA60022E890 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E4CF0E1BB17DA60022E890 /* ViewController.swift */; };
+		D2E4CF121BB17DA60022E890 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2E4CF101BB17DA60022E890 /* Main.storyboard */; };
+		D2E4CF141BB17DA60022E890 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2E4CF131BB17DA60022E890 /* Assets.xcassets */; };
+		D2E4CF171BB17DA60022E890 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2E4CF151BB17DA60022E890 /* LaunchScreen.storyboard */; };
+		D2E4CF291BB17E3F0022E890 /* libpd-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D2E4CF241BB17DE70022E890 /* libpd-ios.a */; };
+		D2E4CF2C1BB17E3F0022E890 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2E4CF2A1BB17E3F0022E890 /* AudioToolbox.framework */; };
+		D2E4CF2D1BB17E3F0022E890 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2E4CF2B1BB17E3F0022E890 /* AVFoundation.framework */; };
+		D2E4CF661BB187390022E890 /* simpleOsc.pd in Resources */ = {isa = PBXBuildFile; fileRef = D2E4CF651BB187390022E890 /* simpleOsc.pd */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D2E4CF231BB17DE70022E890 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2E4CF1E1BB17DE60022E890 /* libpd.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D2AAC07E0554694100DB518D;
+			remoteInfo = "libpd-ios";
+		};
+		D2E4CF251BB17DE70022E890 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2E4CF1E1BB17DE60022E890 /* libpd.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 119013AB1486450C00086F19;
+			remoteInfo = "libpd-osx";
+		};
+		D2E4CF271BB17E1A0022E890 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2E4CF1E1BB17DE60022E890 /* libpd.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D;
+			remoteInfo = "libpd-ios";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D2E4CF091BB17DA60022E890 /* pdiOSSwiftTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pdiOSSwiftTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2E4CF0C1BB17DA60022E890 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D2E4CF0E1BB17DA60022E890 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D2E4CF111BB17DA60022E890 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D2E4CF131BB17DA60022E890 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D2E4CF161BB17DA60022E890 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D2E4CF181BB17DA60022E890 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2E4CF1E1BB17DE60022E890 /* libpd.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = libpd.xcodeproj; path = "../../../Libraries/pd-for-ios/libpd/libpd.xcodeproj"; sourceTree = "<group>"; };
+		D2E4CF2A1BB17E3F0022E890 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		D2E4CF2B1BB17E3F0022E890 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		D2E4CF2E1BB17F760022E890 /* pdiOSSwiftTest-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "pdiOSSwiftTest-Bridging-Header.h"; sourceTree = "<group>"; };
+		D2E4CF651BB187390022E890 /* simpleOsc.pd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = simpleOsc.pd; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2E4CF061BB17DA60022E890 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2E4CF2C1BB17E3F0022E890 /* AudioToolbox.framework in Frameworks */,
+				D2E4CF2D1BB17E3F0022E890 /* AVFoundation.framework in Frameworks */,
+				D2E4CF291BB17E3F0022E890 /* libpd-ios.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D2E4CF001BB17DA50022E890 = {
+			isa = PBXGroup;
+			children = (
+				D2E4CF2A1BB17E3F0022E890 /* AudioToolbox.framework */,
+				D2E4CF2B1BB17E3F0022E890 /* AVFoundation.framework */,
+				D2E4CF1E1BB17DE60022E890 /* libpd.xcodeproj */,
+				D2E4CF0B1BB17DA60022E890 /* pdiOSSwiftTest */,
+				D2E4CF0A1BB17DA60022E890 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D2E4CF0A1BB17DA60022E890 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2E4CF091BB17DA60022E890 /* pdiOSSwiftTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D2E4CF0B1BB17DA60022E890 /* pdiOSSwiftTest */ = {
+			isa = PBXGroup;
+			children = (
+				D2E4CF0C1BB17DA60022E890 /* AppDelegate.swift */,
+				D2E4CF0E1BB17DA60022E890 /* ViewController.swift */,
+				D2E4CF101BB17DA60022E890 /* Main.storyboard */,
+				D2E4CF131BB17DA60022E890 /* Assets.xcassets */,
+				D2E4CF151BB17DA60022E890 /* LaunchScreen.storyboard */,
+				D2E4CF651BB187390022E890 /* simpleOsc.pd */,
+				D2E4CF181BB17DA60022E890 /* Info.plist */,
+				D2E4CF2E1BB17F760022E890 /* pdiOSSwiftTest-Bridging-Header.h */,
+			);
+			path = pdiOSSwiftTest;
+			sourceTree = "<group>";
+		};
+		D2E4CF1F1BB17DE60022E890 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2E4CF241BB17DE70022E890 /* libpd-ios.a */,
+				D2E4CF261BB17DE70022E890 /* libpd-osx.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D2E4CF081BB17DA60022E890 /* pdiOSSwiftTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2E4CF1B1BB17DA60022E890 /* Build configuration list for PBXNativeTarget "pdiOSSwiftTest" */;
+			buildPhases = (
+				D2E4CF051BB17DA60022E890 /* Sources */,
+				D2E4CF061BB17DA60022E890 /* Frameworks */,
+				D2E4CF071BB17DA60022E890 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2E4CF281BB17E1A0022E890 /* PBXTargetDependency */,
+			);
+			name = pdiOSSwiftTest;
+			productName = pdiOSSwiftTest;
+			productReference = D2E4CF091BB17DA60022E890 /* pdiOSSwiftTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D2E4CF011BB17DA50022E890 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "DeFunc Art";
+				TargetAttributes = {
+					D2E4CF081BB17DA60022E890 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = D2E4CF041BB17DA50022E890 /* Build configuration list for PBXProject "pdiOSSwiftTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D2E4CF001BB17DA50022E890;
+			productRefGroup = D2E4CF0A1BB17DA60022E890 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = D2E4CF1F1BB17DE60022E890 /* Products */;
+					ProjectRef = D2E4CF1E1BB17DE60022E890 /* libpd.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				D2E4CF081BB17DA60022E890 /* pdiOSSwiftTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		D2E4CF241BB17DE70022E890 /* libpd-ios.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libpd-ios.a";
+			remoteRef = D2E4CF231BB17DE70022E890 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D2E4CF261BB17DE70022E890 /* libpd-osx.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libpd-osx.a";
+			remoteRef = D2E4CF251BB17DE70022E890 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D2E4CF071BB17DA60022E890 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2E4CF171BB17DA60022E890 /* LaunchScreen.storyboard in Resources */,
+				D2E4CF661BB187390022E890 /* simpleOsc.pd in Resources */,
+				D2E4CF141BB17DA60022E890 /* Assets.xcassets in Resources */,
+				D2E4CF121BB17DA60022E890 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2E4CF051BB17DA60022E890 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2E4CF0F1BB17DA60022E890 /* ViewController.swift in Sources */,
+				D2E4CF0D1BB17DA60022E890 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D2E4CF281BB17E1A0022E890 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "libpd-ios";
+			targetProxy = D2E4CF271BB17E1A0022E890 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D2E4CF101BB17DA60022E890 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2E4CF111BB17DA60022E890 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D2E4CF151BB17DA60022E890 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2E4CF161BB17DA60022E890 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D2E4CF191BB17DA60022E890 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "pdiOSSwiftTest/pdiOSSwiftTest-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				USER_HEADER_SEARCH_PATHS = "../../../Libraries/pd-for-ios/**";
+			};
+			name = Debug;
+		};
+		D2E4CF1A1BB17DA60022E890 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "pdiOSSwiftTest/pdiOSSwiftTest-Bridging-Header.h";
+				USER_HEADER_SEARCH_PATHS = "../../../Libraries/pd-for-ios/**";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D2E4CF1C1BB17DA60022E890 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = pdiOSSwiftTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.defuncart.pdiOSSwiftTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D2E4CF1D1BB17DA60022E890 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = pdiOSSwiftTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.defuncart.pdiOSSwiftTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D2E4CF041BB17DA50022E890 /* Build configuration list for PBXProject "pdiOSSwiftTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2E4CF191BB17DA60022E890 /* Debug */,
+				D2E4CF1A1BB17DA60022E890 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2E4CF1B1BB17DA60022E890 /* Build configuration list for PBXNativeTarget "pdiOSSwiftTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2E4CF1C1BB17DA60022E890 /* Debug */,
+				D2E4CF1D1BB17DA60022E890 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D2E4CF011BB17DA50022E890 /* Project object */;
+}
